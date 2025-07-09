@@ -7,7 +7,7 @@ local Tab = Window:NewTab("Main")
 local Section = Tab:NewSection("WalkSpeed")
 
 
-Section:NewButton("WalkSpeed", "ButtonInfo", function()
+Section:NewButton("WalkSpeed", "making you walk faster or slower", function()
    loadstring(game:HttpGet("https://raw.githubusercontent.com/WELPCASED/Speed/main/Speed%20script"))()
 end)
 
@@ -175,7 +175,7 @@ end)
 
 local Section = Tab:NewSection("all best gui")
 
-Section:NewButton("kawaii", "ButtonInfo", function()
+Section:NewButton("kawaii", "making aura from all unanchored units making it spinning around you", function()
    pcall(function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/hellohellohell012321/KAWAII-AURA/main/kawaii_aura.lua", true))()
 end)
@@ -188,6 +188,6 @@ Section:NewButton("ButtonText", "ButtonInfo", function()
     print("Clicked")
 end)
 
-Section:NewButton("infinite Yield", "ButtonInfo", function()
+Section:NewButton("infinite Yield", "all what you want here", function()
     loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()
 end)
